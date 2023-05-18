@@ -1,0 +1,51 @@
+body {
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  letter-spacing: 0%;
+  box-sizing: border-box;
+  background-image: url(../../images/thumbbig-1210194.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--color-600);
+  }
+
+
+  main {
+    display: flex;
+    margin: 0 auto;
+    width: 1440px;
+    height: 80%;
+  }
+  
+  .dogSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgba(14, 21, 117, 0.5);
+    border-radius: 50px 0 0 50px;
+  }
+  
+  .catSection {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: rgba(138, 26, 26, 0.5);
+    border-radius: 0 50px 50px 0;
+  }

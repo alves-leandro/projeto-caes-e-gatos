@@ -1,0 +1,35 @@
+.title-1 {
+  font-weight: var(--font-weight1);
+  font-size: var(--font-size1);
+  line-height: 150%;
+}
+
+.title-2 {
+  font-weight: var(--font-weight2);
+  font-size: var(--font-size2);
+  line-height: 150%;
+}
+
+.text-1 {
+  font-weight: var(--font-weight1);
+  font-size: var(--font-size1);
+  line-height: 150%;
+}
+
+.text-2 {
+  font-weight: var(--font-weight3);
+  font-size: var(--font-size3);
+  line-height: 150%;
+}
+
+.text-3 {
+  font-weight: var(--font-weight2);
+  font-size: var(--font-size3);
+  line-height: 150%;
+}
+
+.text-modal{
+  font-weight: var(--font-weight2);
+  font-size: 15px;
+  line-height: 100%;
+}

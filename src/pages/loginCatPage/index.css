@@ -1,0 +1,186 @@
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../../images/cats/mrtinkles.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header-cats{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(36,0,8,0.59) 0%, rgba(121,9,61,0.4192051820728291) 13%, rgba(255,0,0,0.5228466386554622) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+header h1{
+    color: white;
+}
+
+section{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(36,0,8,0.59) 0%, rgba(121,9,61,0.4192051820728291) 13%, rgba(255,0,0,0.5228466386554622) 100%);
+    width: 462px;
+    height: 373px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+}
+
+form h2{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    right: 1%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+.message-div{
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 45px;
+    position: relative;
+    right: 58%;
+    background-color: white;
+    font-weight: 600;
+}
+
+.message-div::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 159px;
+    top: 79%;
+    border: 2px solid;
+    border-color: transparent red red transparent;
+    transform: rotate(39deg);
+    background-color: white;
+}
+
+/* .toast-div{
+    position: relative;
+    width: 218px;
+    display: flex;
+    left: 116%;
+    top: 130%;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .toast-div-dog{
+    position: relative;
+    width: 248px;
+    right: 125%;
+    top: 136%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-div-dog{
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 45px;
+    position: relative;
+    right: -47%;
+    background-color: white;
+    font-weight: 600;
+}
+.message-div-dog::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 23px;
+    top: 74%;
+    border: 2px solid;
+    border-color: transparent blue blue transparent;
+    transform: rotate(48deg);
+    background-color: white;
+
+} */
+
+
+.toast-div-together{
+    position: relative;
+    width: 248px;
+    right: 93%;
+    top: 136%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toast-div-together a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.message-div-together{
+    padding: 20px;
+    border: 2px solid;
+    border-color: blue blue red red;
+    border-radius: 45px;
+    position: relative;
+    right: -7%;
+    bottom: 21px;
+    background-color: white;
+    font-weight: 600;
+}
+
+.message-div-together::after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: 77px;
+    top: 77%;
+    border: 2px solid;
+    border-color: transparent red red transparent;
+    transform: rotate(48deg);
+    background-color: white;
+
+}
+.div-animals{
+    display: flex;
+    flex-direction: row;
+}
+
+.together-img{
+    width: 100px;
+    height: 100px;
+}

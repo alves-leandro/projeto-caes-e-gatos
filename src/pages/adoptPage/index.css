@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-image: url(../../images/thumbbig-1210194.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 1440px;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 5, 36, 0.59) 0%,
+    rgba(26, 9, 121, 0.419) 13%,
+    rgba(0, 34, 255, 0.523) 40%,
+    rgba(36, 0, 8, 0.59) 50%,
+    rgba(121, 9, 61, 0.4192051820728291) 73%,
+    rgba(255, 0, 0, 0.5228466386554622) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main {
+  width: 1440px;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.divHeaderAdoptPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divAboutUser {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.divAboutUser img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.divAboutUser div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divButtons {
+  display: flex;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.ulPetList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.allCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: rgba(14, 21, 117, 0.5);
+  color: white;
+  border-radius: 20px;
+}
+
+.dogCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 11, 36, 0.59) 0%,
+    rgba(9, 25, 121, 0.4192051820728291) 8%,
+    rgba(0, 54, 255, 0.5228466386554622) 100%
+  );
+  color: white;
+  border-radius: 20px;
+}
+
+.catCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 8, 0.59) 0%,
+    rgba(121, 9, 61, 0.4192051820728291) 13%,
+    rgba(255, 0, 0, 0.5228466386554622) 100%
+  );
+  color: white;
+  border-radius: 20px;
+}
+
+.divAboutPet {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  gap: 20px;
+  align-items: center;
+}
+
+.divAboutPet div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divAboutPet img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+}
+
+.image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+}

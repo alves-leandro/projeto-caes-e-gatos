@@ -1,0 +1,63 @@
+.button-header {
+	width: 120px;
+	height: 30px;
+	background: red;
+	color: white;
+	border: red;
+	position: relative;
+	right: 1%;
+	border: 1px solid grey;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.button-header-dog {
+	width: 120px;
+	height: 30px;
+	background: blue;
+	color: white;
+	border: blue;
+	position: relative;
+	right: 1%;
+	border: 1px solid grey;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.header-cats {
+	padding: 0.5rem 2rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	align-items: center;
+	background: linear-gradient(
+		90deg,
+		rgba(36, 0, 8, 0.59) 0%,
+		rgba(121, 9, 61, 0.4192051820728291) 13%,
+		rgba(236, 61, 61, 0.523) 100%
+	);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header-dogs {
+	padding: 0.5rem 2rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	align-items: center;
+	background: linear-gradient(
+		90deg,
+		rgba(0, 11, 36, 0.59) 0%,
+		rgba(9, 25, 121, 0.4192051820728291) 8%,
+		rgba(0, 54, 255, 0.5228466386554622) 100%
+	);
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+header h1 {
+	color: white;
+}
